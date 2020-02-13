@@ -1,16 +1,17 @@
-The ESU Installation and Activation is broken down into three sections:
+The ESU Installation and Activation is broken down into three sections.
 
 1) A Global Condition to use for your Application's Deployment Type's Requirements
 2) The Deployment script that will install and activate the ESU
 3) The validation script for the Deployment Type
 
 Information gathered from these sources:
-https://techcommunity.microsoft.com/t5/windows-it-pro-blog/obtaining-extended-security-updates-for-eligible-windows-devices/ba-p/1167091
-https://support.microsoft.com/en-us/help/4522133/procedure-to-continue-receiving-security-updates
-https://support.microsoft.com/en-us/help/4538483/extended-security-updates-esu-licensing-preparation-package
+- https://techcommunity.microsoft.com/t5/windows-it-pro-blog/obtaining-extended-security-updates-for-eligible-windows-devices/ba-p/1167091
+- https://support.microsoft.com/en-us/help/4522133/procedure-to-continue-receiving-security-updates
+- https://support.microsoft.com/en-us/help/4538483/extended-security-updates-esu-licensing-preparation-package
 
-Credit to Ronni Pedersen for posting his original PowerShell script to his blog and the comment from EVANS
-https://www.ronnipedersen.com/2019/12/18/managing-extended-security-updates-for-windows-7-using-microsoft-endpoint-manager/
+Credit to Ronni Pedersen for posting his PowerShell script to his blog and a comment from EVANS
+- https://www.ronnipedersen.com/2019/12/18/managing-extended-security-updates-for-windows-7-using-microsoft-endpoint-manager/
+
 
 On to the fun:
 
