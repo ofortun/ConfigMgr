@@ -9,12 +9,12 @@
 1. Download PSAppDeployToolkit
 	1. https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases
 	1. Extract the contents to a folder
- 	1. Copy the Toolkit folder to a path of your choosing (such as these options)
+ 	1. Copy the .\Toolkit\AppDeployToolkit folder to a path of your choosing (such as these options)
     1. $Home\Documents\WindowsPowerShell\Modules
 		1. $Env:ProgramFiles\WindowsPowerShell\Modules
 	1. Mine is copied to: **C:\Users\user\Documents\WindowsPowerShell\Modules\AppDeployToolkit**
 1. Convert the script to a module
-	1. In ISE: Open **\Documents\WindowsPowerShell\Modules\AppDeployToolkit\_AppDeployToolkitMain.ps1_**
+	1. In ISE: Open **\Documents\WindowsPowerShell\Modules\AppDeployToolkit\AppDeployToolkitMain.ps1**
 	1. File > Save As
 		1. Change type to **PowerShell Script Module**
 		1. Change name to: **AppDeployToolkit.psm1**
