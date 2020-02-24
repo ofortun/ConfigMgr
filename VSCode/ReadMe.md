@@ -18,6 +18,7 @@
 	1. File > Save As
 		1. Change type to **PowerShell Script Module**
 		1. Change name to: **AppDeployToolkit.psm1**
+		1. Don't forget to remove  ...Main... from the filename.
 	1. Delete AppDeployToolkitMain.ps1, it is no longer needed
 1. Update the PSADT XML
 	1. Edit **AppDeployToolkitConfig.xml**
